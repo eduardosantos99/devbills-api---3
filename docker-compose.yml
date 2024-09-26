@@ -15,7 +15,7 @@ services:
 
   app:
     depends_on:
-      - mongodb
+      - mongo
     container_name: devbills-api
     build:
       context: .
